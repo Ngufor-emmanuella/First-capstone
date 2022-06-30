@@ -9,8 +9,16 @@
     color: rgb(22, 19, 19);
 }
 
+.mainest {
+  
+    background: linear-gradient(rgba(255, 255, 255, 0.836), white), url(./images/students-computer.jpg);
+    background-blend-mode: luminosity;
+    width: 100%;
+    z-index: 4;
+    height: auto;
+}
+
 .box1 {
-    background-color: rgb(211, 211, 211, 0.8);
     position: relative;
 }
 
@@ -200,6 +208,7 @@
 
 .box3b {
     display: flex;
+    justify-content: space-between; 
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -395,6 +404,39 @@ h3 {
     font-size: 12px;
 }
 
+.nav3hide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0,0,0, .8);
+    backdrop-filter: blur(5px);
+    left: -100vw;
+
+    height: 100vh;
+    justify-content: center;
+    z-index: 100;
+    transition: 1s ease-out;
+}
+
+.nav3hide .markx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav3hide ul {
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+}
+
+.nav3hide ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
 #ham {
     display: none;
@@ -406,6 +448,10 @@ h3 {
     background-size: cover;
     width: 100%;
     height: auto;
+    }
+    
+    .nav3hide {
+        display: none;
     }
 
 .nav1a {
@@ -668,8 +714,9 @@ h3 {
     }
   
 .box3b img {
-    width: 80px;
-    height: 100px;
+    flex: 3;
+    width: 80%;
+    align-self: flex-end;
     }
            
 .card h2 {
