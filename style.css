@@ -2,19 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .ham {
     color: rgb(22, 19, 19);
 }
 
-.mainest {
+.box1 {
+    background-color: rgb(211, 211, 211, 0.8);
+    position: relative;
+}
+
+.box1::before {
     background-image: url("images/students-computer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
+    opacity: 0.8;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: o;
+    position: absolute;
+    z-index: -1;
 }
+
 
 .nav21 {
     display: none;
@@ -60,6 +74,7 @@
     letter-spacing: 0.2px;
     padding-left: 15px;
     width: 400px;
+    color: #000;
 }
 
 .second {
@@ -413,8 +428,8 @@ h3 {
 .nav1o {
     display: flex;
     list-style-type: none;
-    position: relative;
-    left: 950px;
+    position: re;
+    left: 20px;
 }
 
 .nav21 {
@@ -449,7 +464,12 @@ h3 {
     padding-bottom: 35px;
     background-color: #fff;
     }
-        
+
+.box1 {
+    background-color: rgb(211, 211, 211, 0.8);
+    position: relative;
+}
+
 .box1 h1 {
     padding-top: 30px;
     margin-left: 200px;
