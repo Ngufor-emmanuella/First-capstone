@@ -54,7 +54,7 @@
     padding-top: 50px;
     margin-left: 20px;
     color: #f44c06;
-    width: 350px
+    width: 10vw;
 }
 
 .small {
@@ -66,13 +66,13 @@
 .big {
     font-family: 'poppins', sans-serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 10vw;
 }
 
 .first {
     border: 3px solid rgb(238, 229, 229);
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 10px;
+
     display: inline-block;
 }
 
@@ -81,20 +81,18 @@
     padding-bottom: 15px;
     letter-spacing: 0.2px;
     padding-left: 15px;
-    width: 400px;
+    width: 21.5rem;
     color: #000;
     background-color: rgb(255, 255, 255);
 }
 
 .second {
-    margin-left: 25px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .second h2 {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
-    font-size: 30px;
     color:rgb(68, 63, 63)
 }
 
@@ -107,6 +105,8 @@
 }
 
 .box2 {
+    display: block;
+    color: #fff;
     background-color: rgb(34, 31, 31);
 }
 
@@ -116,75 +116,70 @@
     font-weight: 200;
     font-size: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-block;
-    position: relative;
-    left: 160px;
-}
-
-.line {
-    border-color: #ed6242;
-    width: 50px;
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 197px;
 }
 
 .box2ao {
-    width: 35%;
-    color: #fff;
-    display: flex;
-    margin-left: 150px;
-    flex-direction: row;
-    /* flex-direction: row-reverse; */
-    flex-wrap: wrap;
+   display:grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   justify-content: center;
+   align-items: center;
 }
-
+.main-pro-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    border-color: #ed6242;
+    width: 50px;
+    margin-bottom: .5rem;
+}
 .box2a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: .5rem;
     border: 1px solid rgb(71, 65, 65);
     background-color: rgb(43, 40, 40);
-    margin-right: 5px;
-    width: 200px;
-    padding: 24px;
-    margin-top: 50px;
+    margin: 0.3rem 1rem;
     transition: all 1s ease-out;
 }
-
-.box2a:hover, .box2a:focus {
-    border: 5px solid rgb(233, 230, 230);
-    animation-delay: 0.5s;
-    animation-duration: 0.5s;
+.box2a-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: a;
+    padding: 0;
+    margin: 0;
 }
-
+.fa-solid{
+    font-size: 10vw;
+}
 .box2a h2 {
     color: rgb(241, 108, 59);
     font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
+    font-weight: 600;
+    font-size: 4vw;
 
-.box2a {
-    border: 1px solid rgb(71, 65, 65);
-    background-color: rgb(43, 40, 40);
-    margin-right: 5px;
-    width: 200px;
-    padding: 24px;
-    margin-top: 50px;
 }
-
-.box2a h2 {
-    color: rgb(241, 108, 59);
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    padding-bottom: 10px;
+.box2a> p{
+    text-align: start;
+    font-size: 1rem;
+    max-width: 40vw;
+    height: auto;
 }
-
-.fa-solid {
-    font-size: 40px;
-    font-weight: 300px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+.feature-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .forum {
@@ -209,47 +204,21 @@
     margin-bottom: 20px;
 }
 
-.box3b {
-    display: flex;
-    justify-content: space-between; 
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.box3b h2 {
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.box3b h6 {
-    font-family: 'poppins', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    color: rgb(245, 141, 104);
-}
-
-.box3b p {
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    font-size: 15px
-}
-
-.box3d {
-    display: flex;
-    flex-direction: row;
+.button:hover {
+    border: 5px solid #fff;
+    transition: s ease-out;
 }
 
 .part {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
 .part2 {
-    padding-right: 60px;
-    width: 180px;
-    height: 100px;
+    width: 15vw;
+    margin: 0.2rem;
 }
 
 .part2:hover, .part2:focus {
@@ -260,20 +229,22 @@
     
 }
 
+.box2a:hover, .box2a:focus {
+    border: 5px solid rgb(233, 230, 230);
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    }
+
 .partner {
     background-color: rgb(44, 38, 38);
 }
 
 .partner h4 {
-    justify-content: center;
-    text-align: center;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 50px;
+   
 }
 
 .image {
@@ -291,66 +262,75 @@
 
 .box3a {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
 }
 
 .box3b {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-bottom: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    
 }
 
 .box3b img {
-    width: 80px;
-    height: 100px;
+    width: 20rem;
 }
+
+.box3b h6 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(245, 141, 104);
+    }
 
 .card h2 {
     font-family: 'poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 5vw;
+    max-width: auto;
 }
 
 .card h6 {
-    width: 300px;
+    max-width: 70vw;
     font-family: 'poppins', sans-serif;
-    font-weight: 20;
+    font-weight: 500;
     font-size: 10px;
     font-style: italic;
 }
 
 .card p {
     font-family: 'poppins', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    width: 350px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-bottom:1rem;
+    max-width: auto;
+    max-height: 10rem;
     word-spacing: 0.2px;
 }
 
 .secondline {
     border-color: #ed6242;
     width: 40px;
-    margin-left: 600px;
-    margin-top: 5px;
-    margin-bottom: 30px;
 }
-
 .thirdline {
     width: 20px;
     margin-left: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
-.line4 {
-    border-color: #ed6242;
-    width: 30px;
-    margin-left: 200px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.partnerHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
 }
 
 .end {
@@ -590,50 +570,49 @@ h3 {
         
 .line {
     border-color: #ed6242;
-    width: 50px;
-    text-align: center;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
     margin-top: 5px;
-    margin-left: 600px;
     }
+
+
         
 .box2ao {
-    width: 100%;
     color: #fff;
     display: flex;
-    margin-left: 150px;
+    margin-left: 15px;
     flex-wrap: wrap;
     }
         
 .box2a {
     border: 1px solid rgb(71, 65, 65);
     background-color: rgb(43, 40, 40);
-    margin-right: 5px;
-    width: 200px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    max-width: 200px;
     padding: 24px;
-    margin-top: 60px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 10rem;
     transition: all 1s ease-out;
     }
 
-    .box2a:hover, .box2a:focus {
-        border: 5px solid rgb(233, 230, 230);
-        animation-delay: 0.5s;
-        animation-duration: 0.5s;
+.box2a:hover, .box2a:focus {
+    border: 5px solid rgb(233, 230, 230);
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
     }
         
 .box2a h2 {
     color: rgb(241, 108, 59);
     font-family: 'poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 20px;
     padding-bottom: 10px;
     }
         
 .fa-solid {
-    font-size: 40px;
-    font-weight: 300px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    font-size: 5vw;
     }
         
 .forum {
@@ -651,7 +630,7 @@ h3 {
     padding-bottom: 40px;
     padding-top: 40px;
     }
-        
+    
 h3 {
     justify-content: center;
     text-align: center;
@@ -746,8 +725,8 @@ h3 {
 
 .secondline {
     border-color: #ed6242;
-    width: 40px;
-    margin-left: 600px;
+    width: 70px;
+    margin-left: 35rem;
     margin-top: 5px;
     margin-bottom: 30px;
     }
@@ -812,12 +791,14 @@ h3 {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-right: 6rem;
     }
         
 .part2 {
-    padding-right: 60px;
-    width: 180;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    
+    padding-bottom: 10px;
     }
         
 .partner {
@@ -834,5 +815,22 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     }
+
+.main-pro-head h3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 70rem;
+    }
+
+.box2a> p {
+    text-align: start;
+    font-size: 1rem;
+    font-size: 1rem;
+    max-width: 100vw;
+    height: auto;
+    }
+
+.main-pro-head .line {
+    margin-right: 2rem;
+    }
 }
-    

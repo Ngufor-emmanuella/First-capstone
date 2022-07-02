@@ -7,7 +7,7 @@
     <title>MY Fitst Capstone Project</title>
     <script src="https://kit.fontawesome.com/7869860a54.js" crossorigin="anonymous"></script> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="desk.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
@@ -77,117 +77,32 @@
     </div>
     </section>
     </main>
+    <!-- here is the main program zone -->
     <div class="box2" id="about">
-        <h3>Main Program</h3><hr class="line">
-    <div class="box2ao">
-        <div class="box2a">
-            <i class="fa-solid fa-masks-theater"></i>
-            <h2>CC Exhibition</h2>
-            <p>Appreciate various creations applying CC license of artist, organised from Art Center Nabi.</p>
-        </div>
-        <div class="box2a">
-            <i class="fa-solid fa-thumbs-up"></i>
-            <h2>Guaranteed Sucess</h2>
-            <p>We will be with you every step of the way, to help you achieve success and maintain that success!</p>
-        </div>
-        
-        <div class="box2a">
-            <i class="fa-solid fa-highlighter"></i>
-            <h2 class="forum">Forum</h2>
-            <p>Have the time to share your thought and opinion with experts for each topic.</p>
-        </div>
-        <div class="box2a">
-            <i class="fa-solid fa-person-praying"></i>
-            <h2>Workshop</h2>
-            <p>Try creating your own work using open source license rather than just watching at it.</p>
-        </div>
-        <div class="box2a">
-            <i class="fa-solid fa-earth-africa"></i>
-            <h2>CC Ignite</h2>
-            <p>Get opportunities to network with CC afiliates around around the world, also after the submit.</p>
-        </div>
-        
+       <div class="main-pro-head">
+        <h3 id="procarthead"></h3><hr class="line">
+       </div>
+       <!-- main program here -->
+    <div class="box2ao" id="cartContainer">
     </div>
-        <p class="program">SEE THE WHOLE PROGRAM</p>
+    <!-- End main program here -->
+    <p class="program">SEE THE WHOLE PROGRAM</p>
         <button class="button" type="submit">Join CC Global Submit 2022</button>
     </div>
     <div class="box3" id="ourplans">
-        <h3 class="feat">Featured Speakers</h3><hr class="secondline">
+        <div class="feature-head">
+            <h3 class="feat">Featured Speakers</h3><hr class="line">
+        </div>
         <!-- div that holds the featured speakers -->
         <div class="box3a">
             <!--each cards in a seperate div -->
-            <div class="box3b">
-                <img class="image" src="images/image1.jfif" alt="picture of a man">
-            <div class="card">
-                <h2>Yochai Benkler</h2>
-                <h6>Berkman proffessor of entrepenuerial legal studies at havard law school.</h6>
-                <hr class="thirdline">
-                <p>Benkler studies common-based peer production, and published his seminal book. The wealth of
-                    Network in 2006.
-                </p>
-            </div>
-            </div>
-            <div class="box3b">
-                <img class="image" src="images/image2.jfif" alt="picture of a man">
-            <div class="card">
-                <h2>Kilnam Chon</h2>
-                <hr class="thirdline">
-                <p>Kilman Chon helped bring the internet to Asia and is an outspoken advocate for open web 
-                    and digital commons. In 2012, he was induced into the inaugural class of the internet society's
-                    (ISOC) internet hall of fame.
-                </p>
-            </div>
-            </div>
-            <div class="box3b">
-                <img class="image" src="images/image4.jfif" alt="picture of a lady">
-            <div class="card">
-                <h2>Julia Leda</h2>
-                <h6>President of young pirates of Europe.</h6>
-                <hr class="thirdline">
-                <p>European inertration, political democracy and participation, of youth through online and
-                    as their major condem, Reda's report outlining potential changes to UA copyright, law was
-                    approved by the parliaments in July.
-                </p>
-            </div>
-            </div>
-            <div class="box3b">
-                <img class="image" src="images/image5.jfif" alt="picture of a lady">
-            <div class="card">
-                <h2>Lila Tretikov</h2>
-                <h6>executive director of wikipedia foundation</h6>
-                <hr class="thirdline">
-                <p>Lila Tretikov the executive director of the wikimedia foundation, the nonprofit organisation 
-                    that operates wikipedia. wikipedia is freely avaliable in 290 languages and used by nearly half 
-                    a billion people around the world every month.
-                </p>
-            </div>
-            </div>
-            <div class="box3b">
-                <img class="image" src="images/image6.jfif" alt="picture of a young man">
-            <div class="card">
-                <h2>Ryan Merkley</h2>
-                <h6>CEO of Creative Commons, ex CEO of the Modzilla Foundation</h6>
-                <hr class="thirdline">
-                <p>Ryan had been leading open source project at the mozilla foundation such as the open 
-                    source movements.
-                </p>
-            </div>
-            </div>
-            <div class="box3b">
-                <img class="image" src="images/image3.jfif" alt="picture of a woman">
-            <div class="card">
-                <h2>Ryan Merkley</h2>
-                <h6>CEO of Creative Commons, ex CEO of the Modzilla Foundation</h6>
-                <hr class="thirdline">
-                <p>Ryan had been leading open source project at the mozilla foundation such as the open 
-                    source movements.
-                </p>
-            </div>
-            </div>
+           
         </div>
         <div class="partner">
-            <h4>Partners</h4>
-            <hr class="line4">
+            <div class="partnerHead">
+                <h4>Partners</h4>
+            <hr class="line">
+            </div>
         <div class="part">
             <div><img class="part2" src="images/google.png" alt="logo"></div>
             <div><img class="part2" src="images/navar.jfif" alt="logo"></div>
@@ -198,7 +113,8 @@
             <div class="end1">
                 <ul class="end2">
                     <li>
-                        <img src="images/exhibi1.jfif" alt="colorful art"></li>
+                        <img src="images/exhibi1.jfif" alt="colorful art">
+                    </li>
                 </ul>
                 <p>2022 creative commons cameroon, some rights reserved.</p>
             </div>
