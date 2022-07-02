@@ -108,7 +108,7 @@ const featureData = [
 ];
 function featureDisplay() {
   const featureMain = document.querySelector('.box3a');
-  for (let i = 0; i < featureData.length; i++) {
+  for (let i = 0; i < featureData.length; i) {
     const cardContent = document.createElement('div');
     cardContent.classList.add('box3b');
     const imgfeature = document.createElement('img');
