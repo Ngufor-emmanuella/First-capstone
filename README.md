@@ -18,7 +18,7 @@
 -Javascript for language
 
 ## Live Demo (if available)
-[link](https://ngufor-emmanuella.github.io/fitst-capstone/)
+
 
 ## Getting Started
 To get a local copy
