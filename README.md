@@ -10,15 +10,14 @@
 -I Used JavaScript to manipulate DOM elements.
 -I Used JavaScript events.
 -I used objects to store and access data.
-## Built With
-
+###original design idea by Cindy Shin in Behance.[link](https://www.behance.net/adagio07)
 - HTML for layout 
 - CSS for styling
 - Linters HTML/CSS and Javascript
 -Javascript for language
 
 ## Live Demo (if available)
-
+[link](https://ngufor-emmanuella.github.io/fitst-capstone/)
 
 ## Getting Started
 To get a local copy
